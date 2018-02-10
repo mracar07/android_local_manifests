@@ -11,6 +11,4 @@
 <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
 <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
 
-<remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" />
-<project name="AospExtended/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="8.x" />
 </manifest>
