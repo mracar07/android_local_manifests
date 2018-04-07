@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Device-->  
+<project name="mracar07/android_device_zuk_z2_row" path="device/zuk/z2_row" remote="github"  revision="rr" />
+<project name="mracar07/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github"  revision="rr" />
+<project name="mracar07/android_vendor_zuk" path="vendor/zuk" remote="github"  revision="cosmicos" />
+<project name="mracar07/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="cosmicos" />
+
+<!--Compatible Hals-->  
+<project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github"  revision="lineage-15.1-caf-8996" />
+<project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github"  revision="lineage-15.1-caf-8996" />
+<project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github"  revision="lineage-15.1-caf-8996" />
+
+<!--GCC GNU 7.2-->  
+<project name="mracar07/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2" remote="github" revision="7.2.1" />  
+  
+<!--Repositories to remove-->
+<remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="platform/prebuilts/gdb/darwin-x86" />
+<remove-project name="platform/prebuilts/go/darwin-x86" />
+<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" /> 
+
+</manifest>
