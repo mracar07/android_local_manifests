@@ -4,8 +4,8 @@
 <!--Device-->  
 <project name="mracar07/android_device_zuk_z2_row" path="device/zuk/z2_row" remote="github"  revision="rr" />
 <project name="mracar07/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github"  revision="rr" />
-<project name="mracar07/android_vendor_zuk" path="vendor/zuk" remote="github"  revision="cosmicos" />
-<project name="mracar07/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="cosmicos" />
+<project name="mracar07/android_vendor_zuk" path="vendor/zuk" remote="github"  revision="oreo-mr1" />
+<project name="mracar07/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="oreo-mr1" />
 
 <!--Compatible Hals-->  
 <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github"  revision="lineage-15.1-caf-8996" />
