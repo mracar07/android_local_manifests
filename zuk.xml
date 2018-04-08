@@ -2,8 +2,8 @@
 <manifest>
 
 <!--Device-->  
-<project name="mracar07/android_device_zuk_z2_row" path="device/zuk/z2_row" remote="github"  revision="cosmicos" />
-<project name="mracar07/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github"  revision="cosmicos" />
+<project name="mracar07/android_device_zuk_z2_row" path="device/zuk/z2_row" remote="github"  revision="pe" />
+<project name="mracar07/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github"  revision="pe" />
 <project name="mracar07/android_vendor_zuk" path="vendor/zuk" remote="github"  revision="oreo-mr1" />
 <project name="mracar07/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="oreo-mr1" />
 
