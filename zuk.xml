@@ -13,7 +13,7 @@
 <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github"  revision="lineage-15.1-caf-8996" /-->
 
 <!--GCC GNU 7.2-->  
-<project name="mracar07/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2" remote="github" revision="7.2.1" /> 
+<project name="zuk-devs/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2" remote="github" revision="master" /> 
 
 <!--OTA-->   
 <project name="mracar07/OTA" path="ota" remote="github" revision="master" />  
